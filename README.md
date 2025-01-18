@@ -39,9 +39,6 @@ Here is an example of how the color picker tool appears when opened:
 
 ![Color Picker Example](./assets/screenshot.jpeg)
 
-Color Code Displayed:
-- Hex: #ff5733
-- RGB: rgb(255, 87, 51)
 
 ## How It Works
 
@@ -56,7 +53,7 @@ Color Code Displayed:
 3. Clipboard Support: 
    - Users can copy the color values by clicking on a button.
 
-Contributing
+## Contributing
 
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature-xyz).
@@ -65,7 +62,7 @@ Contributing
 5. Push to the branch (git push origin feature-xyz).
 6. Open a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
