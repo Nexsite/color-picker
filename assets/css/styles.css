@@ -15,7 +15,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    background-image: url("/assets/bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/Novalexdroid/color-picker/refs/heads/main/assets/bg.jpg");
     background-attachment: fixed;
     }
     ul {
