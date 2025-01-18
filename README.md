@@ -61,13 +61,5 @@ Here is an example of how the color picker tool appears when opened:
 5. Push to the branch (git push origin feature-xyz).
 6. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-Acknowledgments
-
-- Thanks to the open-source community for providing valuable resources and inspiration for building this tool.
-- Inspired by popular color picker tools used in design and web development.
 
 ---
