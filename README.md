@@ -3,9 +3,8 @@
 ## Overview
 This is a Color Picker Tool web extension built with HTML, CSS, and JavaScript that allows users to pick colors directly from the web page and displays their hexadecimal or RGB values. It is simple, lightweight, and designed to help designers, developers, and anyone needing to capture color codes from any website.
 
-<center><a href="demo/">Try out the demo</a></center>
 
-Features
+## Features
 - Pick colors from any part of a webpage using a color picker tool.
 - Allows users to copy color codes to the clipboard for easy use.
 - Minimal and easy-to-use interface, integrated into the browser as an extension.
@@ -25,7 +24,7 @@ Features
 1. Click on the extension icon in your browser toolbar.
 2. The color picker tool will open, and you can hover over any part of a webpage.
 3. Click on a color you wish to pick.
-4. The selected color's code (Hex or RGB) will appear in the tool.
+4. The selected color's code (Hex) will appear in the tool.
 5. You can copy the color code to your clipboard and use it as needed.
 
 ## Technologies Used
