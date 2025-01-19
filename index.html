@@ -1,86 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="assets/icon.png" type="image/png">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Color Picker Tool - Pick colors from any webpage and get the exact RGB, HEX, and HSL values.">
-    <title>Color Picker Tool</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="assets/icon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Color Picker Tool - Pick colors from any webpage and get the exact RGB, HEX, and HSL values."
+    />
+    <title>Color Picker (Web Extension)</title>
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <div class="container">
-            <span class="logo"><img src="assets/icon.png" alt="Logo">Color Picker</span>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="https://github.com/Novalexdroid/color-picker/releases">Download</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <span class="logo"
+          ><img src="assets/icon.png" alt="Logo" />Color Picker (Web
+          Extension)</span
+        >
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#install">Installation</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Header Section -->
     <header id="home">
-        <div class="container">
-            <h1>Color Picker Tool</h1>
-            <p>Easily select your desired color with this intuitive color picker tool, available as a <b>Web Extension</b>. Once you choose a color, its hex code is automatically displayed for quick reference. You can also copy the hex code to your clipboard with a single click, making it seamless to integrate the color into your projects. Perfect for <b> designers, developers</b>, and anyone working with color customization—this extension enhances your productivity by providing a simple and efficient way to select and utilize colors without leaving your browser. Enjoy the ease of color picking right from your toolbar!</p>
-            <a class="button dl" href="https://github.com/Novalexdroid/color-picker/releases">Download</a>
-            <a class="button dm" href="#how-it-works">Try out the Demo</a>
-        </div>
+      <div class="container">
+        <h1>Color Picker (Web Extension)</h1>
+        <p>
+          Easily select your desired color with this intuitive color picker
+          tool, available as a <b>Web Extension</b>. Once you choose a color,
+          its hex code is automatically displayed for quick reference. You can
+          also copy the hex code to your clipboard with a single click, making
+          it seamless to integrate the color into your projects. Perfect for
+          <b> designers, developers</b>, and anyone working with color
+          customization—this extension enhances your productivity by providing a
+          simple and efficient way to select and utilize colors without leaving
+          your browser. Enjoy the ease of color picking right from your toolbar!
+        </p>
+        <br />
+        <a class="button dl btn-primary" href="#download"
+          ><i class="fas fa-download"></i
+        ></a>
+        <a class="button dm btn-secondary" href="#demo"
+          ><i class="fas fa-external-link-alt"></i>Try out the Demo</a
+        >
+      </div>
     </header>
 
     <!-- Features Section -->
     <section class="features" id="features">
-        <div class="container">
-            <h1>Features</h1>
-            <ul>
-
-                 <li><b>Color Selection:</b> Choose your desired color using an intuitive and easy-to-use color picker interface.</li>
-<li><b>Instant Hex Code Display:</b> The hex code of the selected color is automatically shown as you pick, eliminating the need for manual code search.</li>
-<li><b>One-Click Hex Code Copy:</b> Quickly copy the hex code with a simple click for seamless use in your design or development projects.
-Ideal for designers, developers, and anyone working with color customization, providing both accuracy and convenience.</li>
-             
-            </ul>
-            <span>
-        </span>
-        </div>
-</section>
-
-    <!-- How It Works Section -->
-    <section class="how-it-works" id="how-it-works">
-        <div class="container">
-            <center>
-            <h1>How It Works</h1>
-            <p>Simply click on the 'Pick Color' button and pick any color.</p> <br>
-            <button class="colorPickerBtn">Pick Color</button><br>
-            <span class="colorCode" value="">Select a color</span>
-            <div class="color-picker">
-                    <span>
-                        <div class="selectedColor">
-                            <span class="colorGrid"></span>
-                        </div>
-                    </span>
-                </div>
-                <div class="messageBox"></div>
-            </center>
-        
-    
-        </div>
+      <div class="container">
+        <h1># Features</h1>
+        <ul>
+          <li>
+            <b>Color Selection:</b> Choose your desired color using an intuitive
+            and easy-to-use color picker interface.
+          </li>
+          <li>
+            <b>Instant Hex Code Display:</b> The hex code of the selected color
+            is automatically shown as you pick, eliminating the need for manual
+            code search.
+          </li>
+          <li>
+            <b>One-Click Hex Code Copy:</b> Quickly copy the hex code with a
+            simple click for seamless use in your design or development
+            projects. Ideal for designers, developers, and anyone working with
+            color customization, providing both accuracy and convenience.
+          </li>
+        </ul>
+        <span> </span>
+      </div>
     </section>
 
+    <!-- Demo -->
+    <section class="demo" id="demo">
+      <div class="container">
+        <h1># Demo</h1>
+        <p>
+          Simply click on the Square and pick any color. Pick the colors of the
+          icon in the navbar to check. Used JS to pick colors and CSS to style.
+        </p>
+        <br />
+        <center>
+          <span class="colorCode" value="">Select a color</span>
+          <div class="color-picker">
+            <span>
+              <div class="selectedColor">
+                <span class="colorGrid colorPickerBtn"></span>
+              </div>
+            </span>
+          </div>
+          <span class="messageBox">...</span>
+        </center>
+      </div>
+    </section>
+
+    <!-- Hot to use -->
+    <section class="install" id="install">
+      <div class="container">
+        <h1># Installation Guide</h1>
+        <h3>Step 1 : Download the Extension</h3>
+        <p>1. Download the color-picker tool</p>
+        <p>2. Extract the contents of the ZIP file, if applicable.</p>
+        <br />
+        <h3>
+          Step 2 : Open the Extensions Page in Your Browser
+          <p>1. Open your preferred web browser.</p>
+          <p>
+            2. Navigate to the Extensions page using the corresponding URL from
+            the table below:
+          </p>
+        </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Browser</th>
+              <th>Extension Settings Page</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google Chrome</td>
+              <td>chrome://extensions/</td>
+            </tr>
+            <tr>
+              <td>Mozilla Firefox</td>
+              <td>about:addons</td>
+            </tr>
+            <tr>
+              <td>Microsoft Edge</td>
+              <td>edge://extensions/</td>
+            </tr>
+            <tr>
+              <td>Safari</td>
+              <td>x-apple-system://com.apple.Safari.Extensions</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+
+        <p>3. Enable <b>Developer mode</b> if required (varies by browser).</p>
+        <br />
+        <h3>Step 3 : Load the Extension</h3>
+        <p>
+          1. Click the <b>Load unpacked</b> button (or equivalent in your
+          browser).
+        </p>
+        <p>
+          2. Select the folder containing the extension files (where
+          `manifest.json` is located).
+        </p>
+        <br />
+
+        <h3>Step 4 : Verify the Installation</h3>
+        <p>- The Color Picker icon should now appear in the browser toolbar.</p>
+        <p>- Click the icon to open the popup and Pick Colors. That's it :)</p>
+      </div>
+    </section>
+
+    <!-- Download -->
+
+    <section id="download" class="download">
+      <div class="container">
+        <h1># Download</h1>
+        <p>
+          Choose the version that is compatible with your platform and enjoy our
+          latest features!
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Version</th>
+              <th>Release Date</th>
+              <th>Platform</th>
+              <th>Download</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.0.0 <span class="latest"></span></td>
+              <td>March 1, 2023</td>
+              <td>Windows, Mac, Linux</td>
+              <td>
+                <a href="https://example.com/download/v1.0.0" class="btn"
+                  >Download</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>1.1.0 <span class="pre-release"></span></td>
+              <td>April 15, 2023</td>
+              <td>Windows, Mac</td>
+              <td>
+                <a href="https://example.com/download/v1.1.0" class="btn"
+                  >Download</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>1.2.0</td>
+              <td>May 10, 2023</td>
+              <td>Windows, Linux</td>
+              <td>
+                <a href="https://example.com/download/v1.2.0" class="btn"
+                  >Download</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>2.0.0</td>
+              <td>June 1, 2023</td>
+              <td>Windows, Mac, Linux</td>
+              <td>
+                <a href="https://example.com/download/v2.0.0" class="btn"
+                  >Download</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
     <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Color Picker Tool. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>
+          <span
+            >Made with ❤ by
+            <a href="https://github.com/novalexdroid">@Novalexdroid</a> |
+            <a href="https://github.com/novalexdroid/color-picker"
+              >Github Repo</a
+            ></span
+          >
+        </p>
+      </div>
     </footer>
-<script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
