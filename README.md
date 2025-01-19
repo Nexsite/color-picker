@@ -6,13 +6,8 @@ This is a Color Picker Tool web extension built with HTML, CSS, and JavaScript t
 
 [View More Details >>>](https://novalexdroid.github.io/color-picker/)
 
-<<<<<<< HEAD
-Features
-
-=======
-
 ## Features
->>>>>>> ecea5cab01ed565018c37598d6a6179f2ade7c1e
+
 - Pick colors from any part of a webpage using a color picker tool.
 - Allows users to copy color codes to the clipboard for easy use.
 - Minimal and easy-to-use interface, integrated into the browser as an extension.
