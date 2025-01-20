@@ -4,7 +4,7 @@
 
 This is a Color Picker Tool web extension built with HTML, CSS, and JavaScript that allows users to pick colors directly from the web page and displays their hexadecimal or RGB values. It is simple, lightweight, and designed to help designers, developers, and anyone needing to capture color codes from any website.
 
-[View More Details >>>](https://novalexdroid.github.io/color-picker/)
+
 
 ## Features
 
