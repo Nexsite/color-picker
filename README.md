@@ -4,10 +4,6 @@
 
 This is a Color Picker Tool web extension built with HTML, CSS, and JavaScript that allows users to pick colors directly from the web page and displays their hexadecimal or RGB values. It is simple, lightweight, and designed to help designers, developers, and anyone needing to capture color codes from any website.
 
-<center>
-<a href="https://microsoftedge.microsoft.com/addons/detail/password-generator/khbkjmaifdbgnddpmknfimkecljafipe"><img src="./assets/download.png" width="50%"></a>
-</center>
-
 ## Features
 
 - Pick colors from any part of a webpage using a color picker tool.
